@@ -12,11 +12,41 @@ body {
     margin: 0;
 }
 
-img {
-    height: 100vh;
+a {
+    color: white;
+}
+
+.image-container {
+    background-image: url('images/john-rodenn-castillo-a9smyzW_1V4-unsplash.jpg');
+    width: 530px;
+    background-repeat: no-repeat;
+
+}
+
+.banner {
+    background-color: #acd3c2;
+    opacity: .4;
+    position: absolute;
+    top: 30%;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px #acd3c2;
+
+}
+
+.banner>img {
+    opacity: .8;
+}
+
+.photo-credit {
+    color: #b2c4bc;
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
 }
 
 .main-container {
-    width: 50%;
+    width: 45%;
     background-color: #e8fdf4;
 }
