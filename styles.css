@@ -31,12 +31,25 @@ a {
     width: 530px;
     display: flex;
     justify-content: center;
+    align-items: center;
     box-shadow: 0px 0px 10px #acd3c2;
+    font-family: 'Macondo', cursive;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
 
 }
 
 .banner>img {
     opacity: .8;
+    width: 260px;
+    height: auto;
+}
+
+.banner>div {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    padding-left: 10px;
+
 }
 
 .photo-credit {
