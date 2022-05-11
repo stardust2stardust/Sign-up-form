@@ -19,6 +19,11 @@ a {
     color: white;
 }
 
+.paragraph {
+    padding: 30px 20px;
+    line-height: 1.4rem;
+}
+
 .image-container {
     background-image: url('images/john-rodenn-castillo-a9smyzW_1V4-unsplash.jpg');
     width: 530px;
@@ -68,6 +73,62 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
 
+
+}
+
+
+h2 {
+    background-color: white;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form-main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding-left: 20px;
+    box-shadow: 0px 3px 5px gray;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+}
+
+
+
+button {
+    margin-top: 50px;
+    width: 40%;
+    height: 3.0rem;
+    background-color: #466658;
+    color: white;
+    border-radius: 15px;
+}
+
+button,
+p {
+    margin-left: 20px;
+
+}
+
+label {
+    font-size: .9rem;
+}
+
+input {
+    font-size: 1.1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+p>a {
+    color: #466658;
 }
