@@ -8,6 +8,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     if (pw.value !== pwConfirm.value) {
         pwSubtext.innerText = "*passwords do not match";
-        console.log('button clicked')
+
     }
 })
