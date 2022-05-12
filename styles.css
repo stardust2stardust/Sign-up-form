@@ -32,7 +32,7 @@ a {
 }
 
 .banner {
-    background-color: #acd3c2;
+    background-color: #b2c4bc;
     opacity: .4;
     position: absolute;
     top: 30%;
@@ -48,15 +48,18 @@ a {
 }
 
 .banner>img {
-    opacity: .8;
-    width: 260px;
+    opacity: 1;
+    width: 200px;
     height: auto;
+    /* filter: invert(); */
 }
 
 .banner>div {
     font-size: 3rem;
     line-height: 2.8rem;
     padding-left: 10px;
+    color: black;
+    width: 200px;
 
 }
 
@@ -79,10 +82,12 @@ a {
 
 
 h2 {
+    color: #383f3c;
     background-color: white;
     margin-bottom: 0px;
     padding-left: 20px;
     padding-top: 20px;
+    font-size: 1.5rem;
 }
 
 .form-main-section {
@@ -111,12 +116,16 @@ button {
     background-color: #466658;
     color: white;
     border-radius: 15px;
+    font-size: 1.2rem;
 }
 
 button,
 p {
     margin-left: 20px;
+}
 
+button:hover {
+    background-color: #84a396;
 }
 
 label {
@@ -125,10 +134,19 @@ label {
 
 input {
     font-size: 1.1rem;
-    border: 1px solid gray;
+    border: 1px solid rgb(182, 179, 179);
     border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid #466658;
+    box-shadow: 2px 2px 5px #84a396;
 }
 
 p>a {
     color: #466658;
+}
+
+.error {
+    border: 1px solid red;
 }
